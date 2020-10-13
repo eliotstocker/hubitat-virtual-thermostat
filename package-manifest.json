@@ -3,5 +3,35 @@
   "author": "Eliot Stocker",
   "version": "1.0.0",
   "minimumHEVersion": "0.0",
-  "dateReleased": "2020-10-13"
+  "dateReleased": "2020-10-13",
+  "apps": [
+    {
+      "id": "1c01ed98-6d3c-428f-a3b6-d20ad4e48bef",
+      "name": "Virtual Thermostat Manager",
+      "namespace": "piratemedia",
+      "location": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/virtual-thermostat-manager.groovy",
+      "required": true,
+      "oauth": false,
+      "primary": true
+    },
+    {
+      "id": "d2fdfe59-80b8-417d-8333-3409133f90b2",
+      "name": "Virtual Thermostat With Device",
+      "namespace": "piratemedia",
+      "location": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/virtual-thermostat.groovy",
+      "required": true,
+      "oauth": false
+    }
+  ],
+  "drivers": [
+    {
+      "id": "f2f96a99-5173-47ee-8220-ec50762d5300",
+      "name": "Virtual Thermostat Device",
+      "namespace": "piratemedia",
+      "location": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/virtual-thermostat-device.groovy",
+      "required": true
+    }
+  ],
+  "licenseFile": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/LICENSE",
+  "documentationLink": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/README.md"
 }
