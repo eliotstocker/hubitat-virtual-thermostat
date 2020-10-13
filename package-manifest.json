@@ -12,7 +12,8 @@
       "location": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/virtual-thermostat-manager.groovy",
       "required": true,
       "oauth": false,
-      "primary": true
+      "primary": true,
+      "version": "1.0.0"
     },
     {
       "id": "d2fdfe59-80b8-417d-8333-3409133f90b2",
@@ -20,7 +21,8 @@
       "namespace": "piratemedia",
       "location": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/virtual-thermostat.groovy",
       "required": true,
-      "oauth": false
+      "oauth": false,
+      "version": "1.0.0"
     }
   ],
   "drivers": [
@@ -29,7 +31,8 @@
       "name": "Virtual Thermostat Device",
       "namespace": "piratemedia",
       "location": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/virtual-thermostat-device.groovy",
-      "required": true
+      "required": true,
+      "version": "1.0.0"
     }
   ],
   "licenseFile": "https://raw.githubusercontent.com/eliotstocker/hubitat-virtual-thermostat/main/LICENSE",
